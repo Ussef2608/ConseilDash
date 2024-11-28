@@ -1,8 +1,925 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+		Layout = "~/Views/Shared/_LayoutSite.cshtml";
 }
+@await Html.PartialAsync("~/Views/Shared/_NavLayout.cshtml")
+<section class="banner-section">
+	<div class="main-slider-carousel owl-carousel owl-theme">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+		<div class="slide" style="background-image: url(images/main-slider/image-1.jpg)">
+			<div class="color-layer-one"></div>
+			<div class="color-layer-two" style="background-image: url(images/main-slider/image-2.jpg)"></div>
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="title">We Are Consejo</div>
+							<h1>An Independent <br> <span>Consulting</span> Firm</h1>
+							<div class="text">Perfect Website Solutions for Finance, Construction, Investors <br> Marketing and similar businesses.</div>
+							<div class="btns-box">
+								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Get Quote</span></a>
+								<a href="about.html" class="theme-btn btn-style-two"><span class="txt">Explore More</span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image">
+								<img src="images/main-slider/content-image-1.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="slide" style="background-image: url(images/main-slider/image-1.jpg)">
+			<div class="color-layer-one"></div>
+			<div class="color-layer-two" style="background-image: url(images/main-slider/image-2.jpg)"></div>
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="title">We Are Consejo</div>
+							<h1>An Independent <br> <span>Consulting</span> Firm</h1>
+							<div class="text">Perfect Website Solutions for Finance, Construction, Investors <br> Marketing and similar businesses.</div>
+							<div class="btns-box">
+								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Get Quote</span></a>
+								<a href="about.html" class="theme-btn btn-style-two"><span class="txt">Explore More</span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image">
+								<img src="images/main-slider/content-image-1.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="slide" style="background-image: url(images/main-slider/image-1.jpg)">
+			<div class="color-layer-one"></div>
+			<div class="color-layer-two" style="background-image: url(images/main-slider/image-2.jpg)"></div>
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="title">We Are Consejo</div>
+							<h1>An Independent <br> <span>Consulting</span> Firm</h1>
+							<div class="text">Perfect Website Solutions for Finance, Construction, Investors <br> Marketing and similar businesses.</div>
+							<div class="btns-box">
+								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Get Quote</span></a>
+								<a href="about.html" class="theme-btn btn-style-two"><span class="txt">Explore More</span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image">
+								<img src="images/main-slider/content-image-1.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+<!-- End Banner Section -->
+<!--Sponsors Section-->
+<section class="sponsors-section">
+	<div class="outer-container">
+
+		<div class="carousel-outer">
+			<!--Sponsors Slider-->
+			<ul class="sponsors-carousel owl-carousel owl-theme">
+				<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
+				<li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
+			</ul>
+		</div>
+
+	</div>
+</section>
+<!--End Sponsors Section-->
+<!-- About Section -->
+<section class="about-section">
+	<div class="pattern-layer" style="background-image: url(images/background/pattern-1.png)"></div>
+	<div class="auto-container">
+		<div class="row clearfix">
+
+			<!-- Image Column -->
+			<div class="image-column col-lg-7 col-md-12 col-sm-12">
+				<div class="inner-column">
+					<div class="image">
+						<img src="images/resource/about.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<!-- Content Column -->
+			<div class="content-column col-lg-5 col-md-12 col-sm-12">
+				<div class="inner-column">
+					<div class="title">About Consejo</div>
+					<h2>Growing With Our Clients 30 <br> Years of <span>Experience</span></h2>
+					<p>Nam fermentum aliquam mauris at accumsan. Suspendisse potenti. Maecaas vel luctus eros, id porta turpis.</p>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> Suspendisse ullamcorper nec mauris id malesuada. </div>
+					<p>Vestibulum ac dictum metus. Nam pretium turpis eget metus consequat rhoncus. Aliquam eu bibendum orci. </p>
+
+					<!-- Fact Counter -->
+					<div class="fact-counter">
+						<div class="row clearfix">
+
+							<!-- Column -->
+							<div class="column counter-column col-lg-4 col-md-4 col-sm-12">
+								<div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="content">
+										<div class="icon flaticon-soccer-cup"></div>
+										<div class="count-outer count-box">
+											<span class="count-text" data-speed="3500" data-stop="1200">0</span>+
+										</div>
+										<div class="counter-title">Award Winners</div>
+									</div>
+								</div>
+							</div>
+
+							<!--Column-->
+							<div class="column counter-column col-lg-4 col-md-4 col-sm-12">
+								<div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+									<div class="content">
+										<div class="icon flaticon-flag"></div>
+										<div class="count-outer count-box">
+											<span class="count-text" data-speed="2500" data-stop="25">0</span>+
+										</div>
+										<div class="counter-title">Year Experience</div>
+									</div>
+								</div>
+							</div>
+
+							<!--Column-->
+							<div class="column counter-column col-lg-4 col-md-4 col-sm-12">
+								<div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+									<div class="content">
+										<div class="icon flaticon-book"></div>
+										<div class="count-outer count-box">
+											<span class="count-text" data-speed="3000" data-stop="1200">0</span>+
+										</div>
+										<div class="counter-title">Business Guide</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<a href="about.html" class="theme-btn btn-style-two"><span class="txt">About Company</span></a>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End About Section -->
+<!-- Services Section -->
+<section class="services-section">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<div class="title">OUR SERVICES</div>
+			<h2>Our Best <span>Consulting Services</span></h2>
+		</div>
+		<div class="row clearfix">
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Business Analysis</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Profit Planning</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Project Reporting</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Estate Planning</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Security Enhanced</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+			<!-- Service Block -->
+			<div class="service-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="color-layer">
+						<span class="side-icon flaticon-line-graph"></span>
+					</div>
+					<div class="icon-box">
+						<span class="icon flaticon-bar-chart"></span>
+					</div>
+					<h4><a href="service-detail.html">Cloud Computing</a></h4>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod data tempor incididunt ut </div>
+					<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Services Section -->
+<!-- Business Section -->
+<section class="business-section">
+	<div class="auto-container">
+		<!-- Upper Section -->
+		<div class="upper-section">
+			<div class="row clearfix">
+
+				<!-- Content Column -->
+				<div class="content-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="title">Why Choose Consejo</div>
+						<h2>Provide <span>Experts</span> For Great <span>Business</span></h2>
+						<p>Vestibulum ac dictum metus. Nam pretium turpis eget metus consequat rhoncus. Aliquam eu bibendum orci. Mauris vel velit at tortor commodo imperdiet et sit amet tortor. Nam pretium turpis eget metus </p>
+						<ul class="list-style-one">
+							<li>Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante.</li>
+							<li>Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend.</li>
+							<li>Duis vel massa eleifend, porta est non, feugiat metus.</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Image Column -->
+				<div class="image-column col-lg-5 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image titlt" data-tilt data-tilt-max="3">
+							<img src="images/resource/business.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Lower Section -->
+		<div class="lower-section">
+			<div class="row clearfix">
+
+				<!-- Service Block Two -->
+				<div class="service-block-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="number">01</div>
+						<h5><a href="service-detail.html">Modify Whole System</a></h5>
+						<div class="text">By dealing with data, select tools that help you automate time-consuming processes.</div>
+					</div>
+				</div>
+
+				<!-- Service Block Two -->
+				<div class="service-block-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+						<div class="number">02</div>
+						<h5><a href="service-detail.html">Safeguard Your Business</a></h5>
+						<div class="text">By dealing with data, select tools that help you automate time-consuming processes.</div>
+					</div>
+				</div>
+
+				<!-- Service Block Two -->
+				<div class="service-block-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="number">03</div>
+						<h5><a href="service-detail.html">Beneficial Strategies</a></h5>
+						<div class="text">By dealing with data, select tools that help you automate time-consuming processes.</div>
+					</div>
+				</div>
+
+				<!-- Service Block Two -->
+				<div class="service-block-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
+						<div class="number">04</div>
+						<h5><a href="service-detail.html">Solid Human Resource</a></h5>
+						<div class="text">By dealing with data, select tools that help you automate time-consuming processes.</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Button Box -->
+			<div class="btn-box text-center">
+				<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get A Quote</span></a>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+<!-- End Business Section -->
+<!-- Testimonial Section -->
+<section class="testimonial-section" style="background-image: url(images/background/pattern-2.png)">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title light centered">
+			<div class="title">Client Testimonials</div>
+			<h2>What People Say About <span>Consejo</span></h2>
+		</div>
+
+		<div class="testimonial-outer">
+
+			<!--Client Testimonial Carousel-->
+			<div class="client-testimonial-carousel owl-carousel owl-theme">
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="row clearfix">
+							<!-- Content Column -->
+							<div class="content-column col-lg-5 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<span class="quote-icon flaticon-quote"></span>
+									<div class="text">"Maecenas nec sem dui. Fusce vulputate scelerisque eros, vitae pretium odio faucibus ac. Nunc eget nunc massa. Phasellus eu urna massa. Suspendisse non diam a elit hendrerit porttitor. Nunc sed semper ex. Praesent purus erat.</div>
+									<div class="author">
+										John Doe<span>Designer</span>
+									</div>
+								</div>
+							</div>
+							<!-- Image Column -->
+							<div class="image-column col-lg-7 col-md-12 col-sm-12">
+								<div class="inner-column">
+									<div class="image">
+										<img src="images/resource/testimonial-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!--Product Thumbs Carousel-->
+			<div class="client-thumb-outer">
+				<div class="client-thumbs-carousel owl-carousel owl-theme">
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-1.jpg" alt=""></figure>
+					</div>
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-2.jpg" alt=""></figure>
+					</div>
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-3.jpg" alt=""></figure>
+					</div>
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-4.jpg" alt=""></figure>
+					</div>
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-1.jpg" alt=""></figure>
+					</div>
+					<div class="thumb-item">
+						<figure class="thumb-box"><img src="images/resource/testimonial-thumb-2.jpg" alt=""></figure>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+<!-- End Testimonial Section -->
+<!-- Cases Section -->
+<section class="cases-section">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<div class="title">Our Cases</div>
+			<h2>We Provide Exclusive <span>Business</span></h2>
+		</div>
+		<div class="row clearfix">
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-1.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Financial Strategy</div>
+						<h4><a href="service-detail.html">Developing a program to be alleviate poverty</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-2.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Profit Planning</div>
+						<h4><a href="service-detail.html">Cras elementum dui a nibh commodo pellentesque</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-3.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Project Reporting</div>
+						<h4><a href="service-detail.html">Curabitur pulvinar nisi impe rdiet odio vestibulu</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-4.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Financial Strategy</div>
+						<h4><a href="service-detail.html">Quisque elementum eleif end est vitae lobortis</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-5.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Security Enhanced</div>
+						<h4><a href="service-detail.html">Vivamus ante lectus, scele risque eu pharetra id</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Case Block -->
+			<div class="case-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="image">
+						<img src="images/resource/case-6.jpg" alt="" />
+						<div class="overlay-box">
+							<a href="service-detail.html" class="search-icon"><span class="icon flaticon-link"></span></a>
+						</div>
+					</div>
+					<div class="lower-content">
+						<div class="category">Financial Strategy</div>
+						<h4><a href="service-detail.html">Morbi ut placerat neque pha sellus vulputate</a></h4>
+						<a class="arrow" href="service-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Cases Section -->
+<!-- Team Section -->
+<section class="team-section">
+	<div class="pattern-layer" style="background-image: url(images/background/pattern-3.png)"></div>
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<div class="title">Our Team</div>
+			<h2>Get Services From <span>Our Experts</span></h2>
+		</div>
+		<div class="row clearfix">
+
+			<!-- Team Block -->
+			<div class="team-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<img src="images/resource/team-1.jpg" alt="" />
+						<!-- Overlay Box -->
+						<div class="overlay-box">
+							<div class="overlay-inner">
+								<div class="content">
+									<!-- Social Box -->
+									<ul class="social-box">
+										<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
+										<li class="linkedin"><a target="_blank" href="http://linkedin.com/" class="fa fa-linkedin"></a></li>
+										<li class="twitter"><a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a></li>
+										<li class="instagram"><a target="_blank" href="http://instagram.com/" class="fa fa-instagram"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lower-content">
+						<h4><a href="team.html">Jack Mehoff</a></h4>
+						<div class="designation">Office Manager</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team Block -->
+			<div class="team-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<img src="images/resource/team-2.jpg" alt="" />
+						<!-- Overlay Box -->
+						<div class="overlay-box">
+							<div class="overlay-inner">
+								<div class="content">
+									<!-- Social Box -->
+									<ul class="social-box">
+										<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
+										<li class="linkedin"><a target="_blank" href="http://linkedin.com/" class="fa fa-linkedin"></a></li>
+										<li class="twitter"><a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a></li>
+										<li class="instagram"><a target="_blank" href="http://instagram.com/" class="fa fa-instagram"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lower-content">
+						<h4><a href="team.html">Maria John</a></h4>
+						<div class="designation">Marketing Expert</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team Block -->
+			<div class="team-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<img src="images/resource/team-3.jpg" alt="" />
+						<!-- Overlay Box -->
+						<div class="overlay-box">
+							<div class="overlay-inner">
+								<div class="content">
+									<!-- Social Box -->
+									<ul class="social-box">
+										<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
+										<li class="linkedin"><a target="_blank" href="http://linkedin.com/" class="fa fa-linkedin"></a></li>
+										<li class="twitter"><a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a></li>
+										<li class="instagram"><a target="_blank" href="http://instagram.com/" class="fa fa-instagram"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lower-content">
+						<h4><a href="team.html">Sarena Martyn</a></h4>
+						<div class="designation">ERP Manager</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team Block -->
+			<div class="team-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<img src="images/resource/team-4.jpg" alt="" />
+						<!-- Overlay Box -->
+						<div class="overlay-box">
+							<div class="overlay-inner">
+								<div class="content">
+									<!-- Social Box -->
+									<ul class="social-box">
+										<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
+										<li class="linkedin"><a target="_blank" href="http://linkedin.com/" class="fa fa-linkedin"></a></li>
+										<li class="twitter"><a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a></li>
+										<li class="instagram"><a target="_blank" href="http://instagram.com/" class="fa fa-instagram"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lower-content">
+						<h4><a href="team.html">Jenn Doe</a></h4>
+						<div class="designation">Senior Consultant</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Team Section -->
+<!-- CTA Section -->
+<section class="cta-section">
+	<div class="auto-container">
+		<div class="inner-container">
+			<div class="pattern-layer" style="background-image: url(images/background/pattern-4.png)"></div>
+			<div class="row clearfix">
+
+				<!-- Title Column -->
+				<div class="title-column col-lg-9 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<h2>Feel Any Project For <span>Business Consulting</span><br> Get Started Us</h2>
+						<a href="contact.html" class="started">Let’s Get Started</a>
+					</div>
+				</div>
+
+				<!-- Button Column -->
+				<div class="button-column col-lg-3 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<a href="contact.html" class="theme-btn btn-style-four"><span class="txt">Get Quote</span></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End CTA Section -->
+<!-- News Section -->
+<section class="news-section">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<div class="title">Blogs Articles</div>
+			<h2>Something Know Our <span>Latest News</span></h2>
+		</div>
+		<div class="row clearfix">
+
+			<!-- News Block -->
+			<div class="news-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<a href="news-detail.html"><img src="images/resource/news-1.jpg" alt="" /></a>
+					</div>
+					<div class="lower-content">
+						<div class="post-date">24<span>JAN</span></div>
+						<div class="category">Information</div>
+						<h4><a href="news-detail.html">Organic and Natural What’s the Difference?</a></h4>
+						<div class="text">Sed venenatis ut sem id molestie. Pelle ntes que habitant morbi tristique senectus et ne tus et malesuada. </div>
+						<a class="arrow" href="news-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- News Block -->
+			<div class="news-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<a href="news-detail.html"><img src="images/resource/news-2.jpg" alt="" /></a>
+					</div>
+					<div class="lower-content">
+						<div class="post-date">12<span>mar</span></div>
+						<div class="category">Information</div>
+						<h4><a href="news-detail.html">Why a Visual Identity System is More Memorable</a></h4>
+						<div class="text">Sed venenatis ut sem id molestie. Pelle ntes que habitant morbi tristique senectus et ne tus et malesuada. </div>
+						<a class="arrow" href="news-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- News Block -->
+			<div class="news-block col-lg-4 col-md-6 col-sm-12">
+				<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="image">
+						<a href="news-detail.html"><img src="images/resource/news-3.jpg" alt="" /></a>
+					</div>
+					<div class="lower-content">
+						<div class="post-date">30<span>sep</span></div>
+						<div class="category">Information</div>
+						<h4><a href="news-detail.html">Make Website That Surpasses Amongst All The</a></h4>
+						<div class="text">Sed venenatis ut sem id molestie. Pelle ntes que habitant morbi tristique senectus et ne tus et malesuada. </div>
+						<a class="arrow" href="news-detail.html"><span class="txt">More</span><span class="arrow-icon flaticon-right-arrow-1"></span></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+@await Html.PartialAsync("~/Views/Shared/_FooterLayout.cshtml")
+

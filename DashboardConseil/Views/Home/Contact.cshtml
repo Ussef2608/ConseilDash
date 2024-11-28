@@ -1,0 +1,161 @@
+﻿@{
+	Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+@await Html.PartialAsync("~/Views/Shared/_NavLayout - Copy.cshtml")
+<!-- Page Title -->
+
+<section class="page-title" style="background-image: url(images/background/3.jpg)">
+	<div class="auto-container">
+		<h1>Contact Us</h1>
+		<ul class="page-breadcrumb">
+			<li><a href="index.html">home</a></li>
+			<li>Contact Us</li>
+		</ul>
+	</div>
+</section>
+<!-- End Page Title -->
+<!-- Contact Page Section -->
+<div class="contact-page-section" style="background-image: url(images/background/pattern-9.png)">
+	<div class="auto-container">
+		<div class="row clearfix">
+
+			<!-- Contact Info Block -->
+			<div class="contact-info-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="color-layer"></div>
+					<div class="icon-box">
+						<span class="icon flaticon-phone-call"></span>
+					</div>
+					<h6>Talk to Us</h6>
+					<ul>
+						<li><span>Phone : </span><a href="tel:+00-123-456-789">+00 123 456 789</a></li>
+						<li><span>Telephone : </span><a href="tel+1-800-100-900">+1 800 100 900</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Contact Info Block -->
+			<div class="contact-info-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="color-layer"></div>
+					<div class="icon-box">
+						<span class="icon flaticon-big-envelope"></span>
+					</div>
+					<h6>Contact Us</h6>
+					<ul>
+						<li><span>Email : </span><a href="mailto:info@example.com">info@example.com</a></li>
+						<li><span>Email : </span><a href="mailto:office@example.com">office@example.com</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Contact Info Block -->
+			<div class="contact-info-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="color-layer"></div>
+					<div class="icon-box">
+						<span class="icon flaticon-map"></span>
+					</div>
+					<h6>Location</h6>
+					<ul>
+						<li>1403 Blackwell Street, AK 9976</li>
+						<li>London WC1B 4EA</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Contact Info Block -->
+			<div class="contact-info-block col-lg-3 col-md-6 col-sm-12">
+				<div class="inner-box">
+					<div class="color-layer"></div>
+					<div class="icon-box">
+						<span class="icon flaticon-wall-clock"></span>
+					</div>
+					<h6>Opening Hours</h6>
+					<ul>
+						<li>Mon - Sat 09:00am To 05:00pm</li>
+						<li>Sunday: Off</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Lower Section -->
+		<div class="lower-section">
+			<div class="row clearfix">
+
+				<!-- Content Column -->
+				<div class="content-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">Get In Touch</div>
+							<h2>Get In <span>Touch</span></h2>
+						</div>
+					</div>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt consequat dolor vitae pulvinar. Aliquam vitae nisi vitae metus imperdiet maximus. Praesent et egestas risus. Duis vitae finibus augue. . </div>
+					<!-- Social Box -->
+					<ul class="social-box">
+						<li class="facebook"><a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a></li>
+						<li class="linkedin"><a target="_blank" href="http://linkedin.com/" class="fa fa-linkedin"></a></li>
+						<li class="twitter"><a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a></li>
+						<li class="instagram"><a target="_blank" href="http://instagram.com/" class="fa fa-instagram"></a></li>
+					</ul>
+				</div>
+
+				<!-- Form Column -->
+				<div class="form-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+
+						<!-- Contact Form -->
+						<div class="contact-page-form">
+							<!-- Contact Form -->
+							<form method="post" action="sendemail.php" id="contact-form">
+								<div class="row clearfix">
+
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<span class="icon flaticon-user-2"></span>
+										<input type="text" name="username" placeholder="Name" required>
+									</div>
+
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<span class="icon flaticon-phone-call"></span>
+										<input type="text" name="phone" placeholder="Phone" required>
+									</div>
+
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<span class="icon flaticon-big-envelope"></span>
+										<input type="email" name="email" placeholder="Email" required>
+									</div>
+
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<span class="icon flaticon-user-2"></span>
+										<input type="text" name="subject" placeholder="Subject" required>
+									</div>
+
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<span class="icon flaticon-user-2"></span>
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn submit-btn" type="submit" name="submit-form">Submit Now <span class="arrow flaticon-right-arrow-1"></span></button>
+									</div>
+
+								</div>
+							</form>
+							<!-- Contact Form -->
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- End Contact Page Section -->
+<!-- Newsletter Section -->
+@await Html.PartialAsync("~/Views/Shared/_FooterLayout.cshtml")

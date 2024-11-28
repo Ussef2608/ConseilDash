@@ -37,9 +37,13 @@ app.UseAuthorization();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
+    name: "home",
+    pattern: "{action=Index}/{id?}",
+    defaults: new { controller = "Home" });
+
+app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Dashboard}/{id?}")
-    .WithStaticAssets();
-app.UseEndpoints(endpoints => endpoints.MapRazorPages());
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();

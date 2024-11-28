@@ -17,7 +17,39 @@ namespace DashboardConseil.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            return View(); // Maps to About.cshtml
+        }
 
+        public IActionResult Histoire()
+        {
+            return View(); // Maps to Histoire.cshtml
+        }
+
+        public IActionResult Team()
+        {
+            return View(); // Maps to Team.cshtml
+        }
+
+        public IActionResult TeamDetaille()
+        {
+            return View(); // Maps to TeamDetaille.cshtml
+        }
+        public IActionResult Service()
+        {
+            return View(); // Maps to Team.cshtml
+        }
+
+        public IActionResult ServiceDetaille()
+        {
+            return View(); // Maps to TeamDetaille.cshtml
+        }
+
+        public IActionResult Contact()
+        {
+            return View(); // Maps to TeamDetaille.cshtml
+        }
         public IActionResult Privacy()
         {
             return View();
