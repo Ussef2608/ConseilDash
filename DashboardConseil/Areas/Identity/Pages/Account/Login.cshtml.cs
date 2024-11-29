@@ -64,8 +64,8 @@ namespace DashboardConseil.Areas.Identity.Pages.Account
 
             returnUrl ??= Url.Content("~/");
 
-            // Vérifier si l'administrateur existe et le créer si nécessaire
-            await EnsureAdminUserAsync();
+            //// Vérifier si l'administrateur existe et le créer si nécessaire
+            //await EnsureAdminUserAsync();
 
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
@@ -75,36 +75,36 @@ namespace DashboardConseil.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
         }
 
-        private async Task EnsureAdminUserAsync()
-        {
-            var adminEmail = "admin@example.com";  // L'email de l'administrateur
-            var adminPassword = "Admin@1234";  // Le mot de passe de l'administrateur
+        //private async Task EnsureAdminUserAsync()
+        //{
+        //    var adminEmail = "admin@example.com";  // L'email de l'administrateur
+        //    var adminPassword = "Admin@1234";  // Le mot de passe de l'administrateur
 
-            var adminUser = await _userManager.FindByEmailAsync(adminEmail);
-            if (adminUser == null)
-            {
-                adminUser = new ApplicationUser
-                {
-                    UserName = "admin",
-                    Email = adminEmail,
-                    EmailConfirmed = true
-                };
+        //    var adminUser = await _userManager.FindByEmailAsync(adminEmail);
+        //    if (adminUser == null)
+        //    {
+        //        adminUser = new ApplicationUser
+        //        {
+        //            UserName = "admin",
+        //            Email = adminEmail,
+        //            EmailConfirmed = true
+        //        };
 
-                var result = await _userManager.CreateAsync(adminUser, adminPassword);
-                if (result.Succeeded)
-                {
-                    _logger.LogInformation("Utilisateur administrateur créé avec succès.");
-                }
-                else
-                {
-                    _logger.LogError("Erreur lors de la création de l'administrateur : " + string.Join(", ", result.Errors.Select(e => e.Description)));
-                }
-            }
-        }
+        //        var result = await _userManager.CreateAsync(adminUser, adminPassword);
+        //        if (result.Succeeded)
+        //        {
+        //            _logger.LogInformation("Utilisateur administrateur créé avec succès.");
+        //        }
+        //        else
+        //        {
+        //            _logger.LogError("Erreur lors de la création de l'administrateur : " + string.Join(", ", result.Errors.Select(e => e.Description)));
+        //        }
+        //    }
+        //}
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/");
+            returnUrl ??= Url.Content("~/Home/Dashboard");
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 

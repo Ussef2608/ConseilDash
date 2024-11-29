@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using DashboardConseil.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DashboardConseil.Controllers
@@ -54,10 +55,13 @@ namespace DashboardConseil.Controllers
         {
             return View();
         }
+
+        [Authorize]
         public IActionResult Dashboard()
         {
             return View();
         }
+
         public IActionResult SignIn()
         {
             return View();

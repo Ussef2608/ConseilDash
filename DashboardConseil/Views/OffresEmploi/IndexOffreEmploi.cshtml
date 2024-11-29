@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DashboardConseil.ViewModel.OffreEmploiViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Chemin absolu vers le fichier _Layout.cshtml
+    ViewData["Title"] = "Liste des offres d'emploi";
+}
+
+<h1>Liste des offres d'emploi</h1>
+
+<a class="btn btn-primary mb-3" asp-action="CreateOffreEmploi">Créer une nouvelle offre</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Titre</th>
+            <th>Description</th>
+            <th>Date de publication</th>
+            <th>Lieu</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var offre in Model)
+        {
+            <tr>
+                <td>@offre.Id</td>
+                <td>@offre.Titre</td>
+                <td>@offre.Description</td>
+                <td>@offre.DatePublication.ToString("dd/MM/yyyy")</td>
+                <td>@offre.Lieu</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(offre.ImageUrl))
+                    {
+                        <img src="@Url.Content("~/images/offres-emploi/" + offre.ImageUrl)" alt="Image" style="width: 100px; height: auto;" />
+                    }
+                    else
+                    {
+                        <span>Pas d'image</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="EditOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm btn-warning">Modifier</a>
+                    <a asp-action="DeleteOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

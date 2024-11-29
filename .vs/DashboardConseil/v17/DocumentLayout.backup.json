@@ -1,73 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\testme\\Desktop\\ConseilDash\\",
+  "WorkspaceRootPath": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\controllers\\offreemploicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\controllers\\offreemploicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\offresemploi\\indexoffreemploi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\offresemploi\\indexoffreemploi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\home\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\viewmodel\\offreemploiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\viewmodel\\offreemploiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\models\\offreemploi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\models\\offreemploi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\testme\\desktop\\conseildash\\dashboardconseil\\migrations\\20241128202552_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\home\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|c:\\users\\maelf\\onedrive\\bureau\\conseildashclone\\dashboardconseil\\migrations\\20241128202552_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87552328-25E2-4800-9CF8-E2B9B71143D1}|DashboardConseil\\DashboardConseil.csproj|solutionrelative:dashboardconseil\\migrations\\20241128202552_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -78,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,85 +114,219 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAFQAAABAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IndexOffreEmploi.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\OffresEmploi\\IndexOffreEmploi.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\OffresEmploi\\IndexOffreEmploi.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\OffresEmploi\\IndexOffreEmploi.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\OffresEmploi\\IndexOffreEmploi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T20:41:02.853Z"
+              "WhenOpened": "2024-11-29T12:35:34.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LayoutSign.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
-              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
-              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T17:38:23.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T16:56:59.281Z"
+              "DocumentIndex": 4,
+              "Title": "OffreEmploiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\ViewModel\\OffreEmploiViewModel.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\ViewModel\\OffreEmploiViewModel.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\ViewModel\\OffreEmploiViewModel.cs",
+              "RelativeToolTip": "DashboardConseil\\ViewModel\\OffreEmploiViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvycAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:23:11.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OffreEmploiController.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Controllers\\OffreEmploiController.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Controllers\\OffreEmploiController.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Controllers\\OffreEmploiController.cs",
+              "RelativeToolTip": "DashboardConseil\\Controllers\\OffreEmploiController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:16:06.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DashboardConseil\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:54:07.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:56:59.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241129121456_OffreEmploi.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs",
+              "RelativeToolTip": "DashboardConseil\\Migrations\\20241129121456_OffreEmploi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:14:56.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OffreEmploi.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Models\\OffreEmploi.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Models\\OffreEmploi.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Models\\OffreEmploi.cs",
+              "RelativeToolTip": "DashboardConseil\\Models\\OffreEmploi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:09:54.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAYwGoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:23:26.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DashboardConseil\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:35:07.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:05:28.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T20:41:02.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T11:05:32.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Program.cs",
               "RelativeDocumentMoniker": "DashboardConseil\\Program.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Program.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Program.cs",
               "RelativeToolTip": "DashboardConseil\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T16:55:35.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "DashboardConseil\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:23:26.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAoAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-28T20:14:54.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:53:47.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\appsettings.json",
+              "RelativeDocumentMoniker": "DashboardConseil\\appsettings.json",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\appsettings.json",
+              "RelativeToolTip": "DashboardConseil\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T19:58:31.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "SignIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\SignIn.cshtml",
               "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\SignIn.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\SignIn.cshtml",
               "RelativeToolTip": "DashboardConseil\\Views\\Home\\SignIn.cshtml",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAE8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -172,23 +334,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\appsettings.json",
-              "RelativeDocumentMoniker": "DashboardConseil\\appsettings.json",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\appsettings.json",
-              "RelativeToolTip": "DashboardConseil\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-28T19:58:31.398Z"
+              "DocumentIndex": 17,
+              "Title": "_LayoutSign.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
+              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
+              "RelativeToolTip": "DashboardConseil\\Views\\Shared\\_LayoutSign.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T17:38:23.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "DashboardConseil\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\ScaffoldingReadMe.txt",
               "RelativeToolTip": "DashboardConseil\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -196,11 +358,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "20241128202552_First.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Migrations\\20241128202552_First.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Migrations\\20241128202552_First.cs",
               "RelativeDocumentMoniker": "DashboardConseil\\Migrations\\20241128202552_First.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Migrations\\20241128202552_First.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Migrations\\20241128202552_First.cs",
               "RelativeToolTip": "DashboardConseil\\Migrations\\20241128202552_First.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -208,11 +370,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "DashboardConseil\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "DashboardConseil\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,23 +382,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DashboardConseil\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "DashboardConseil\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:35:07.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "Profil.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Profil.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Profil.cshtml",
               "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\Profil.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Profil.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Profil.cshtml",
               "RelativeToolTip": "DashboardConseil\\Views\\Home\\Profil.cshtml",
               "ViewState": "AgIAAKUBAAAAAAAAAADwv8gBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -244,11 +394,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\SignUp.cshtml",
               "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\SignUp.cshtml",
               "RelativeToolTip": "DashboardConseil\\Views\\Home\\SignUp.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -256,39 +406,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\Views\\Home\\Dashboard.cshtml",
               "RelativeToolTip": "DashboardConseil\\Views\\Home\\Dashboard.cshtml",
               "ViewState": "AgIAANwBAAAAAAAAAAAAAOgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-28T16:54:47.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DashboardConseil\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DashboardConseil\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:54:07.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DashboardConseil\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DashboardConseil\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T16:53:47.21Z"
             }
           ]
         }
