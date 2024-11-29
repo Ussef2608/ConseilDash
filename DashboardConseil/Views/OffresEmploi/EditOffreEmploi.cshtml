@@ -1,0 +1,76 @@
+﻿@model DashboardConseil.ViewModel.OffreEmploiViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Modifier une offre d'emploi";
+}
+
+<h1>Modifier une offre d'emploi</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="EditOffreEmploi" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="Titre" class="control-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Entreprise" class="control-label"></label>
+                <input asp-for="Entreprise" class="form-control" />
+                <span asp-validation-for="Entreprise" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DatePublication" class="control-label"></label>
+                <input asp-for="DatePublication" class="form-control" type="date" />
+                <span asp-validation-for="DatePublication" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Lieu" class="control-label"></label>
+                <input asp-for="Lieu" class="form-control" />
+                <span asp-validation-for="Lieu" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label">Image actuelle</label>
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <div>
+                        <img src="~/images/offres-emploi/@Model.ImageUrl" alt="Image de l'offre" style="max-width: 200px;" />
+                    </div>
+                }
+                else
+                {
+                    <p>Aucune image disponible</p>
+                }
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FichierImage" class="control-label">Changer l'image</label>
+                <input asp-for="FichierImage" type="file" class="form-control" />
+                <span asp-validation-for="FichierImage" class="text-danger"></span>
+            </div>
+
+            <!-- Boutons d'action -->
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Enregistrer</button>
+                <a asp-action="IndexOffreEmploi" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

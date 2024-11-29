@@ -8423,23 +8423,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maelf\\.nuget\\packages\\": {},
+    "C:\\Users\\testme\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\DashboardConseil.csproj",
+      "projectUniqueName": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\DashboardConseil.csproj",
       "projectName": "DashboardConseil",
-      "projectPath": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\DashboardConseil.csproj",
-      "packagesPath": "C:\\Users\\maelf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maelf\\OneDrive\\Bureau\\ConseilDashClone\\DashboardConseil\\obj\\",
+      "projectPath": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\DashboardConseil.csproj",
+      "packagesPath": "C:\\Users\\testme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\testme\\Desktop\\ConseilDash\\DashboardConseil\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maelf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\testme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
