@@ -13,11 +13,12 @@
     <thead>
         <tr>
             <th>#</th>
+            <th>Image</th>
+
             <th>Titre</th>
             <th>Description</th>
             <th>Date de publication</th>
             <th>Lieu</th>
-            <th>Image</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -26,10 +27,6 @@
         {
             <tr>
                 <td>@offre.Id</td>
-                <td>@offre.Titre</td>
-                <td>@offre.Description</td>
-                <td>@offre.DatePublication.ToString("dd/MM/yyyy")</td>
-                <td>@offre.Lieu</td>
                 <td>
                     @if (!string.IsNullOrEmpty(offre.ImageUrl))
                     {
@@ -40,6 +37,11 @@
                         <span>Pas d'image</span>
                     }
                 </td>
+
+                <td>@offre.Titre</td>
+                <td>@offre.Description</td>
+                <td>@offre.DatePublication.ToString("dd/MM/yyyy")</td>
+                <td>@offre.Lieu</td>
                 <td>
                     <a asp-action="EditOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm btn-warning">Modifier</a>
                     <a asp-action="DeleteOffreEmploi" asp-route-id="@offre.Id" class="btn btn-sm btn-danger">Supprimer</a>
